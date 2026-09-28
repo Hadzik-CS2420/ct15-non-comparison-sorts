@@ -2,9 +2,16 @@
   "assignment": {
     "canvas_title": "👨‍💻 Code-Together 14: Non-Comparison Sorts",
     "points_possible": 30,
-    "submission_types": ["online_url"],
+    "submission_types": [
+      "online_upload"
+    ],
     "github_classroom": true,
     "github_classroom_url": "",
-    "executable_name": "ct14-bucket-sorts.exe"
+    "executable_name": "ct14-bucket-sorts.exe",
+    "allowed_extensions": [
+      "png",
+      "jpg",
+      "jpeg"
+    ]
   }
 }
