@@ -14,7 +14,7 @@
   <rect x="35" y="104" width="10" height="10" rx="2" fill="#c62828"/>
   <text x="50" y="114" fill="#555" font-size="10"><tspan font-weight="bold">max_val</tspan> = largest (91)</text>
   <rect x="200" y="104" width="10" height="10" rx="2" fill="#e65100"/>
-  <text x="215" y="114" fill="#555" font-size="10"><tspan font-weight="bold">num_buckets</tspan> = 3 (programmer chooses)</text>
+  <text x="215" y="114" fill="#555" font-size="10"><tspan font-weight="bold">num_buckets</tspan> = 3 (programr chooses)</text>
   <rect x="35" y="120" width="10" height="10" rx="2" fill="#6a1b9a"/>
   <text x="50" y="130" fill="#555" font-size="10"><tspan font-weight="bold">range_per_bucket</tspan> = ceil(range / num_buckets)</text>
   <rect x="35" y="136" width="10" height="10" rx="2" fill="#f39c12"/>
@@ -41,7 +41,7 @@
   <text x="50" y="352" fill="#cdd6f4" font-size="11"><tspan fill="#cba6f7">int</tspan> idx = (val - min_val) / range_per_bucket;</text>
   <text x="50" y="368" fill="#cdd6f4" font-size="11">buckets[idx].push_back(val);</text>
 
-  <text x="35" y="398" fill="#6c7086" font-size="11" font-style="italic">// num_buckets chosen by programmer (here: 3)</text>
+  <text x="35" y="398" fill="#6c7086" font-size="11" font-style="italic">// num_buckets chosen by programr (here: 3)</text>
   <text x="35" y="414" fill="#6c7086" font-size="11" font-style="italic">// Integer division maps value to bucket index</text>
 
   <!-- Right panel -->
