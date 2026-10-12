@@ -31,7 +31,7 @@
   <text x="320" y="165" fill="#0d47a1" font-size="12">min=<tspan font-weight="bold">5</tspan>, max=<tspan font-weight="bold">91</tspan>, range_per_bucket = ceil((91-5+1)/3) = <tspan font-weight="bold" fill="#c62828">29</tspan></text>
   <text x="35" y="184" fill="#8e44ad" font-size="11" font-weight="bold">Bucket ranges: [5-33], [34-62], [63-91]</text>
 
-  <text x="35" y="202" fill="#555" font-size="11">num_buckets = <tspan font-weight="bold">3</tspan> (chosen by the programmer). More buckets = better distribution but more memory.</text>
+  <text x="35" y="202" fill="#555" font-size="11">num_buckets = <tspan font-weight="bold">3</tspan> (chosen by the programr). More buckets = better distribution but more memory.</text>
   <text x="35" y="216" fill="#555" font-size="11">Fewer buckets = less memory but bigger buckets to sort. Common choices: n, sqrt(n), or a fixed number like 10.</text>
 
   <!-- ===== STEP 1b: Distribute element by element ===== -->
