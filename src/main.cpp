@@ -10,6 +10,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>      // std::ceil -- MSVC pulled this in transitively, GCC does not
 #include "NonComparisonSorts.h"
 
 int main() {
