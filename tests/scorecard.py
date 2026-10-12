@@ -149,7 +149,7 @@ def main():
     who = identity()
     print("")
     print("=" * WIDTH)
-    print("YOUR SCORE -- CT 07: Dynamic Arrays".center(WIDTH))
+    print("YOUR SCORE -- CT 15: Non-Comparison Sorts".center(WIDTH))
     print("=" * WIDTH)
     print("  %-13s %s" % ("GitHub user", who["user"]))
     print("  %-13s %s" % ("Repository", who["repo"]))
@@ -188,7 +188,7 @@ def main():
         print("")
         print("  To work on one section at a time:")
         print("")
-        print("      ./build/run_tests --gtest_filter=DynamicArraysTest.*")
+        print("      ./build/run_tests --gtest_filter=CountingSortTest.*")
         print("")
     else:
         print("")
